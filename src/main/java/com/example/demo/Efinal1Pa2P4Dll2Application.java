@@ -57,7 +57,7 @@ public class Efinal1Pa2P4Dll2Application implements CommandLineRunner{
 		
 		
 		
-		//this.iCitaMedicaService.ingresar("789789", LocalDateTime.now(), new BigDecimal(50),"Hospital Hermanas Solidarias" , "1234", "123");
+		this.iCitaMedicaService.ingresar("7897899", LocalDateTime.now(), new BigDecimal(50),"Hospital Hermanas Solidarias" , "1234", "123");
 		
 		this.iCitaMedicaService.actualizar("789789","Gripe" , "paracetamol 100g", LocalDateTime.now());
 		

@@ -43,11 +43,11 @@ public class CitaMedica {
 	@Column(name = "cime_fecha_proxima_cita")
 	private LocalDateTime fechaProximaCita;
 
-	@ManyToOne(cascade = CascadeType.PERSIST)
+	@ManyToOne()
 	@JoinColumn(name = "cime_id_doctor")
 	private Doctor doctor;
 
-	@ManyToOne(cascade = CascadeType.PERSIST)
+	@ManyToOne()
 	@JoinColumn(name = "cime_id_paciente")
 	private Paciente paciente;
 
